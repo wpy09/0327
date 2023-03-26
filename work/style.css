@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@300;400;500;600;700 & display=swap' ) ;
+body{
+	font-family: 'Noto Serif HK', serif;
+}
+.container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header h1 {
+	color: #FEAB7A;
+	text-align: center;
+	font-size: 44px;
+}
+.container header nav {
+}
+
+.container header nav {
+}
+nav   {
+	text-align: center;
+}
+nav a:link {
+	color: #00AFCA;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #7DF9FD;
+	text-decoration: underline;
+}
+.photoimg {
+	height: 250px;
+	background-image: url(photo/header.jpg);
+	background-size: cover;
+	border-radius: 29px;
+}
+article h2 {
+	background-color: #FFD289;
+	border-radius: 6px;
+	height: 60px;
+	margin-left: 0px;
+	padding-left: 13px;
+	line-height: 56px;
+}
